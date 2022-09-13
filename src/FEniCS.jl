@@ -89,7 +89,6 @@ include("jfem.jl") #this file contains the fem functions
 include("jmisc.jl") #this file contains various miscallaneous functions to assist with solving etc
 include("jsolve.jl") #this file contains the solver functions/routines
 include("jinterface.jl")
-#include_mshr && 
-include("fmshr.jl") #this file contains various geometrical objects using the mshr package
+include_mshr && include("fmshr.jl") #this file contains various geometrical objects using the mshr package
 
 end #module
